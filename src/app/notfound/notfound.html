@@ -1,0 +1,99 @@
+<div class="bg-[#0a0a0a]">
+  <main class="relative min-h-screen overflow-hidden flex items-center justify-center">
+    <div class="grid-bg pointer-events-none absolute inset-0"></div>
+    <div
+      class="pointer-events-none absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[48rem] h-[30rem] rounded-full bg-orange-700/10 blur-[120px]"
+    ></div>
+
+    <div class="relative w-full max-w-xl px-6 py-16 flex flex-col items-center text-center mt-10">
+      <!-- 404 -->
+      <p
+        dir="ltr"
+        class="text-[8rem] sm:text-[10rem] leading-none font-black tracking-tight bg-gradient-to-r from-orange-500 via-amber-400 to-orange-500 bg-clip-text text-transparent drop-shadow-[0_0_40px_rgba(249,115,22,0.35)]"
+      >
+        404
+      </p>
+
+      <!-- الأيقونة -->
+      <div class="relative mt-6">
+        <div
+          class="grid place-items-center w-[104px] h-[104px] rounded-full border border-orange-500/30 bg-orange-500/15"
+        >
+          <svg
+            class="w-11 h-11 text-orange-500"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <path d="M8 16c1-1.500 2.500-2 4-2s3 .5 4 2M9 9.500h.01M15 9.500h.01" />
+          </svg>
+        </div>
+        <span class="absolute -top-3 -end-2 w-5 h-5 rounded-full bg-orange-500"></span>
+        <span class="absolute -bottom-2 -start-3 w-4 h-4 rounded-full bg-amber-600/70"></span>
+      </div>
+
+      <h1 class="mt-10 text-2xl sm:text-3xl font-bold text-white">عفواً! الصفحة غير موجودة</h1>
+      <p class="mt-4 max-w-md text-[15px] leading-8 text-gray-400">
+        الصفحة التي تبحث عنها غير موجودة أو تم نقلها. دعنا نعيدك إلى المسار الصحيح.
+      </p>
+
+      <!-- الأزرار -->
+      <div class="mt-9 flex flex-wrap items-center justify-center gap-4">
+        <a
+          href="/"
+          class="inline-flex items-center gap-2.5 px-7 py-4 rounded-full text-sm font-bold text-white bg-gradient-to-l from-orange-600 to-orange-500 shadow-lg shadow-orange-600/25 hover:brightness-110 transition"
+        >
+          <svg
+            class="w-5 h-5"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+          >
+            <path d="m3 11 9-8 9 8M5 10v10h5v-6h4v6h5V10" />
+          </svg>
+          الذهاب للرئيسية
+        </a>
+        <a
+          href="/blog"
+          class="inline-flex items-center gap-2.5 px-7 py-4 rounded-full text-sm font-bold text-white border border-white/15 bg-white/[0.02] hover:bg-white/5 transition-colors"
+        >
+          <svg
+            class="w-5 h-5"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+          >
+            <path
+              d="M4 4h13a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H6a2 2 0 0 1-2-2V4ZM18 8h2v10a2 2 0 0 1-2 2M8 8h6M8 12h6M8 16h6"
+            />
+          </svg>
+          تصفح المقالات
+        </a>
+      </div>
+
+      <!-- روابط مفيدة -->
+      <div class="mt-14 w-full max-w-md border-t border-white/10 pt-8">
+        <p class="text-xs text-gray-500">قد تجد هذه مفيدة:</p>
+        <ul class="mt-5 flex items-center justify-center gap-3 text-xs text-orange-500">
+          <li><a href="/blog" class="hover:text-orange-400 transition-colors">المدونة</a></li>
+          <li class="text-gray-700" aria-hidden="true">·</li>
+          <li><a href="/about" class="hover:text-orange-400 transition-colors">من نحن</a></li>
+          <li class="text-gray-700" aria-hidden="true">·</li>
+          <li><a href="/privacy" class="hover:text-orange-400 transition-colors">الخصوصية</a></li>
+        </ul>
+      </div>
+    </div>
+  </main>
+</div>
